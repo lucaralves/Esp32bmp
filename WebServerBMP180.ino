@@ -5,8 +5,8 @@
 SFE_BMP180 pressure;
 double P = 0; 
 double T = 0;
-const char* ssid = "SANTA3";
-const char* password = "1524152415";
+const char* ssid = "";
+const char* password = "";
 int LED = 2;
 WiFiServer server(80);
 
