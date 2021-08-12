@@ -10,51 +10,6 @@ const char* password = "";
 int LED = 2;
 WiFiServer server(80);
 
-/*class Bmp{
-
-  private:
-  double temperatura, pressao;
-
-  public:
-  Bmp(double, double);
-  Bmp();
-  double getTemperatura();
-  double getPressao();
-  void setTemperatura(double);
-  void setPressao(double);
-    
-};
-
-Bmp::Bmp(double temp, double press)
-{
-    temperatura = temp;
-    pressao = press;
-}
-
-Bmp::Bmp()
-{
-
-}
-
-double Bmp::getTemperatura() {
-  return this->temperatura;
-}
-
-double Bmp::getPressao() {
-  return this->pressao;
-}
-
-void Bmp::setTemperatura(double temp) {
-  this->temperatura = temp;
-}
-
-void Bmp::setPressao(double press) {
-  this->pressao = press;
-}
-
-Bmp bmp;*/
-
-
 void setup() {
 
   Serial.begin(115200);
